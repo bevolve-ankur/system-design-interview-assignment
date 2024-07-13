@@ -40,7 +40,7 @@ For a successful assignment completion your solution must have following:
 
 - 100K assessment forms being sent out in a year
 - 5000 concurrent users
-- Data Isolation for various customers
+- Data Isolation for every customers
 - Data Encryption at rest and in transit
 - Min 5 GB document processing in a given day
 - Logging & Monitoring
