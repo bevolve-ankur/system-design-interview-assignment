@@ -1,6 +1,6 @@
 # Bevolve AI: System Design Interview Question
 
-## Problem Statement
+## Problem Statement: Data collection for ESG reporting
 
 One of the product offerings of Bevolve is track and report ESG matrices and disclosures. See [This Link](https://www.thecorporategovernanceinstitute.com/insights/guides/simple-guide-esg/) for more info.
 The ESG has many reporting frameworks or standards like GRI, BRSR, CDP, TCFD, FASB etc. See more information here [ESG Frameworks](https://www.greenstoneplus.com/resources/frameworks-standards/list-of-key-esg-reporting-frameworks-and-standards)
@@ -15,13 +15,12 @@ The assessments are recurring and can be sent every year. If there is no change 
 
 In a nutshell the whole requirement boils down to following:
 
-- For every framework, the Catalyst team needs to prepare assessment forms.
-- There must be a questionnaire library and templates of assessment which will represent questions from part of a given ESG standard.
-- The Catalyst team can choose templates and override questions when they are preparing an assessment for a customer.
+- For every framework, the Catalyst team needs to prepare assessment forms or templates. There can be multiple such templates mapped to a particular framework/stadard
+- There must be a questionnaire library which Catalyst team can map to templates.
+- The Catalyst team can choose templates and override, add or remove questions when they are preparing an assessment for a customer.
 - Which questions/templates they should choose totally depends upon two things: a) The framework for which they are trying to gather data b) how much information was extracted from AI which was already given by customers in some form of documents.
 
-Customer receives the assessment in the email, on clicking on the link they'll land up on Bevolve. After this customers can start filling forms/questionnaires. The Customer can ask questions if they don't have clarity on what to fill in a given question. Here ESG AI assistant can help and recommend what to fill and from where to gather this information. If they are not satisfied with AI's help they can raise a query to the Catalyst team to help them figure out that question.
-The progress must be saved incrementally.
+Customer receives the assessment in the email, on clicking on the link they'll land up on Bevolve. After this customers can start filling forms/questionnaires. The Customer can ask questions if they don't have clarity on what to fill in a given question. Here ESG AI assistant can help and recommend what to fill and from where to gather this information. If they are not satisfied with AI's help they can raise a query to the Catalyst team to help them figure out that question. The progress must be saved incrementally.
 
 Once the information is filled it'll be reviewed by the Catalyst team. However, a use-case of auto moderation with the help of AI will be ideal to save time for the team.
 
