@@ -47,4 +47,5 @@ For a successful assignment completion your solution must have following:
 - Choice of any paid service that you think will benefit the product
 - The team with their experience and competency levels that you'll need to execute the project.
 - CD-CI pipeline and managing 99.99% uptime
+- Test Plan (Functional, Security, Performance)
 
