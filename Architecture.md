@@ -61,38 +61,6 @@ ETL from postgres & dynamodb to postgresSQL
 ## Snowflake
 - Store the data for reports and analytics
 
-# Choice of stack & reasoning
 
-### Front end
-#### Next JS
-- Assesment form field can be selected in catalyst as per that customer app can dynamically renderdered using the component based architure and the SSR
-- In build performnce optimization
-- Typesciprt support for type saftey
-- Large react community which means plenty of items already available.
 
-### Backend
-#### Fast API
-- Faster code to production time
-- Build in ground up for async APIs
-- Supports both GraphQL as well as REST
-- SQLAlchemy as ORM for easy coding and code first approach in DB
-- Pydantic which makes it more type safe
-- Build in swagger to reduce API documentation effort
-
-#### Celery
-- Easily integrated with Fast API
-- Can work with redis / MQ aync task management
-- Worker can be auto scaled
-- Batch job option flexibility
-
-#### Apache Airflow
-- Directed Acyclic Graph (DAG) allows to define dependencies and execution order clearly, making it easier to manage intricate data pipelines
-- Connectors available for postgres, dynamodb & snowflake
-- Better scheduling & monitoring capabilities
-
-### Version control & CI CD
-#### GitHub
-- Ease of use
-- Sophisticated code review tool
-- Branch productions
 
